@@ -8,6 +8,7 @@ while True:
 
         numbers.sort()
         length = len(numbers)
+        if not length: print(0)
         mid = length//2
         if length %2==0:
             print(numbers[mid]+numbers[mid-1])/2
